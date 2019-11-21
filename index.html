@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CV Yvan</title> <!-- nom de l'onglet -->
+        <meta charset="utf-8"/> <!-- déclaration unicode -->
+        <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- paramètre du responsive -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> <!-- jquery prérequis pour utiliser le framework bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> <!-- bootstrap -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> <!-- bootstrap -->
+        <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'> <!-- police spécifique -->
+        <link rel="stylesheet" href="css/style.css"> <!-- déclaration css -->
+        <script src="js/script.js"></script> <!-- déclaration js -->
+    </head>
+    
+    <!-- effet de navigation -->
+    <body data-spy="scroll" data-target=".navbar" data-offset="60"> <!-- scrollspy permet que le menu affiche la bonne partie lorsque l'on scroll -->
+        <!-- barre de menu -->
+        <nav class="navbar navbar-default navbar-fixed-top"> <!-- paramètre de la barre de navigation -->
+            <div class="container">
+                <div class="navbar-header">
+                    <!-- bouton pour petit écran -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                         <span class="icon-bar"></span>
+                         <span class="icon-bar"></span>
+                         <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <!-- menu-->
+                <div class="collapse navbar-collapse" id="myNavbar"> 
+                    <ul class="nav navbar-nav">
+                        <li><a href="#about">Yvan</a></li>
+                        <li><a href="#skills">Compétences</a></li>
+                        <li><a href="#experience">Expérience</a></li>
+                        <li><a href="#formation">Formation</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#recommandations">Recommandations</a></li>
+                    </ul>
+                </div>
+            
+            </div>
+        
+        </nav>
+       
+        <section id="about" class="container-fluid"> <!-- la partie "Yvan" -->
+            <div class="col-xs-8 col-md-4 profile-picture"> <!-- taille photo -->
+<!-- choix photo --> <img src="images/m_fontc.jpg" alt="Yvan" class="img-circle">
+            </div>
+            <div class="heading">
+                <h1>YVAN GUIHÉNEUF</h1> <!-- titre -->
+                <h3>Développeur Web & Web Mobile</h3> <!-- sous-titre -->
+                <a href="docs/CV%20GUIH%C3%89NEUF%20YVAN.pdf" class="button1">Télécharger CV</a> <!-- bouton téléchargement -->
+            </div>
+        </section>
+        
+<!-- COMPÉTENCE -->        
+        <section id="skills"> <!-- ancre partie compétence -->
+            <div class="red-divider"></div> <!-- déco trait -->
+            <div class="heading">
+                <h2>Compétences</h2>
+            </div>
+            <div class="container">
+                <div class="row"> <!-- met en ligne les deux colonnes  -->
+                    <div class="col-md-6"> <!-- première colonne / md pour les pc portable en dessous se mettra sur une colonne / une page fait 12 donc 6 pour couper en deux parties -->
+                        <div class="progress"> <!-- fait apparaître une barre de progression -->
+                            <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width:30%"> <!-- paramètres de la barre -->
+                                <h5>HTML 30%</h5> <!-- ne change en aucun cas les paramètres de la barre -->
+                            </div>
+                        </div>
+                        <div class="progress"> 
+                            <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width:30%">
+                                <h5>CSS 30%</h5>
+                            </div>
+                        </div>
+                        <div class="progress"> 
+                            <div class="progress-bar" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width:20%">
+                                <h5>JS 20%</h5>
+                            </div>
+                        </div>
+                    </div>
+                      <div class="col-md-6"> <!-- deuxième colonne -->
+                        <div class="progress"> 
+                            <div class="progress-bar" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width:45%">
+                                <h5>GESTION DE PROJET 45%</h5>
+                            </div>
+                        </div>
+                        <div class="progress"> 
+                            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                                <h5>RÉDACTION TECHNIQUE 70%</h5>
+                            </div>
+                        </div>
+                        <div class="progress"> 
+                            <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%">
+                                <h5>MÉCANIQUE AÉRONAUTIQUE 85%</h5>
+                            </div>
+                        </div> 
+                    </div>
+                
+                </div>
+            </div>
+        </section>
+        
+<!-- EXPÉRIENCE -->    
+        <section id="experience"> <!-- ancre partie experience -->
+        
+            <div class="container">
+                <div class="white-divider"></div> <!-- déco trait -->
+                <div class="heading">
+                    <h2>Expérience Professionelle</h2>
+                </div>
+                <ul class="timeline"> <!-- permet d'afficher la ligne -->
+                    <li>
+                        <div class="timeline-badge"><span class="glyphicon glyphicon-briefcase"></span></div> <!-- logo malette -->
+                        <div class="timeline-panel-container"> <!-- un bloc d'xp par rapport à la timeline -->
+                            <div class="timeline-panel"> <!-- un bloc d'xp seulement les écrits -->
+                                <div class="timeline-heading">
+                                    <h3>SELENE</h3>
+                                    <h4>Chef de Projet Documentation Technique</h4>
+                                    <p class="text-muted"><small class="glyphicon glyphicon-time"></small> mars 2019 - oct. 2019</p>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="italic">Prestation pour SAFRAN - Projet A400M</p>
+                                    <p>Création de la méthodologie de gestion de projet</p>
+                                    <p>Mise à jour des manuels de maintenance, des illustrations et des service bulletin. </p>
+                                    <p>Normes S2000M, S1000D.</p>
+                                    <p>Langage XML.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-badge"><span class="glyphicon glyphicon-briefcase"></span></div>
+                        <div class="timeline-panel-container-inverted">
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h3>SONOVISION</h3>
+                                    <h4>Rédacteur Technique</h4>
+                                    <p class="text-muted"><small class="glyphicon glyphicon-time"></small> juin 2018 - mars 2019</p>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="italic">Prestation pour NEXTER - Projet Griffon</p>
+                                    <p>	Création et mise à jour du guide d’utilisateur</p>
+                                    <p> Réalisation des illustrations à partir de la maquette 3D</p>
+                                    <p>Normes S2000, S2000M, S1000D, ATA100, MAT10000.</p>
+                                    <p>Langages XML, VBA.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-badge"><span class="glyphicon glyphicon-briefcase"></span></div>
+                        <div class="timeline-panel-container">
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h3>SANEF</h3>
+                                    <h4>Opérateur Gestion de Trafic</h4>
+                                    <p class="text-muted"><small class="glyphicon glyphicon-time"></small> nov. 2016 - déc. 2017</p>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="italic">Poste Central d'Exploitation autoroute A14</p>
+                                    <p>Coordination des opérations de maintenance</p>
+                                    <p>Déclenchement des services de secours sur accident ou incident</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-badge"><span class="glyphicon glyphicon-briefcase"></span></div>
+                        <div class="timeline-panel-container-inverted">
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h3>DAHER</h3>
+                                    <h4>Support Technique</h4>
+                                    <p class="text-muted"><small class="glyphicon glyphicon-time"></small> avr. 2016 - juil. 2016</p>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="italic">Support de production - Parachèvement NZ FAL A350 sur site Airbus</p>
+                                    <p>Résolution des non-conformités en respect des normes fabricants</p>
+                                    <p>Suivi technique des opérations de montages auprès des compagnons</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-badge"><span class="glyphicon glyphicon-briefcase"></span></div>
+                        <div class="timeline-panel-container">
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h3>AIRBUS</h3>
+                                    <h4>Assistant des Essais</h4>
+                                    <p class="text-muted"><small class="glyphicon glyphicon-time"></small> oct. 2014 - avr. 2016</p>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="italic">Poste 17 - Fligth Assembly Line A320</p>
+                                    <p>Installation des Sharklets, siège pilote et copilote </p>
+                                    <p>Réalisation des premiers essais de mise en route : circuit carburant, circuit hydraulique, revers, pressurisation...</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-badge"><span class="glyphicon glyphicon-briefcase"></span></div>
+                        <div class="timeline-panel-container-inverted">
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h3>ARMÉE DE TERRE</h3>
+                                    <h4>Sous-Officier Technicien Cellule et Moteur des Aéronefs</h4>
+                                    <p class="text-muted"><small class="glyphicon glyphicon-time"></small> mars 2011 - avr. 2014</p>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="italic">Aviation Légère de l'Armée de Terre <br>
+                                    3ème Régiment d'Hélicoptère de Combat<br>
+                                    Escadrille de Maintenance des Hélicoptères de Manœuvre</p>
+                                    <p>Maintenance préventive, corrective et curative sur PUMA SA330Ba</p>
+                                    <p>Responsable armurerie</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div> 
+        </section>
+        
+<!-- FORMATION -->
+        <section id="formation"> <!-- ancre partie formation -->
+            <div class="container">
+                 <div class="red-divider"></div> <!-- déco trait -->
+                <div class="heading">
+                    <h2>Formation</h2>
+                </div>
+                <div class="row"> <!-- dispose sur une ligne les colonnes-->
+                    <div class="col-sm-4"> <!-- dispose en colonne / sm à partir du format tablette se met sur une colonne / coupé en trois donc 12/3=4 -->
+                        <div class="formation-block">
+                            <h5>2011 - 2012</h5>
+                            <span class="glyphicon glyphicon-education"></span> <!-- logo chapeau diplôme -->
+                            <h3>BASE 721</h3>
+                            <h4>Licence <br> Aéronautique</h4>
+                            <div class="red-divider"></div>
+                            <p>Théorie tous aéronefs</p>
+                            <p>Pratique sur hélicoptère</p>
+                        </div>
+                    </div>
+                     <div class="col-sm-4">
+                         <div class="formation-block">
+                            <h5>2011</h5>
+                            <span class="glyphicon glyphicon-education"></span>
+                            <h3>ENSOA</h3>
+                            <h4>Formation militaire <br> au grade de Sergent</h4>
+                            <div class="red-divider"></div>
+                            <p>Chef de groupe</p>
+                            <p>Maniement des armes</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                         <div class="formation-block">
+                            <h5>2010</h5>
+                            <span class="glyphicon glyphicon-education"></span>
+                            <h3>AFPI</h3>
+                            <h4>BAC Pro <br> MEI</h4>
+                            <div class="red-divider"></div>
+                            <p>Maintenance industriel</p>
+                            <p>BAC en alternance</p>
+                        </div>
+                    </div>
+                    </div> 
+                </div>
+        </section>
+
+<!-- PORTFOLIO -->
+        <section id="portfolio"> <!-- ancre partie portfolio -->
+            <div class="container">
+                <div class="white-divider"></div> <!-- déco trait -->
+                <div class="heading">
+                    <h2>Portfolio</h2>
+                </div>
+                <div class="row">
+                 <div class="col-sm-4">
+                        <a class="thumbnail" href="https://fr.wikipedia.org/wiki/Airbus_A400M_Atlas" target="_blank"> <!-- image avec un lien ouvert dans un nouvel onglet -->
+                            <img src="images/a400m.jpg" alt="fwiki A400M"> <!-- image chercher dans le dossier "images" et l'altérnative si l'image ne charge pas -->
+                        </a>
+                 </div>
+                 <div class="col-sm-4">
+                        <a class="thumbnail" href="https://fr.wikipedia.org/wiki/V%C3%A9hicule_blind%C3%A9_multi-r%C3%B4les" target="_blank">
+                            <img src="images/nexter.jpg" alt="wiki griffon">
+                        </a>
+                 </div>   
+                 <div class="col-sm-4">
+                        <a class="thumbnail" href="https://fr.wikipedia.org/wiki/Autoroute_A14_(France)" target="_blank">
+                            <img src="images/sanef.jpg" alt="wiki A14">
+                        </a>
+                 </div>   
+                </div>
+                 <div class="row">
+                  <div class="col-sm-4">
+                        <a class="thumbnail" href="https://fr.wikipedia.org/wiki/Airbus_A350_XWB" target="_blank">
+                            <img src="images/a350.jpg" alt="wiki daher">
+                        </a>
+                    </div>
+                     <div class="col-sm-4">
+                        <a class="thumbnail" href="https://fr.wikipedia.org/wiki/Airbus_A320" target="_blank">
+                            <img src="images/A320.jpg" alt="wiki a320">
+                        </a>
+                    </div>
+                     <div class="col-sm-4">
+                        <a class="thumbnail" href="https://fr.wikipedia.org/wiki/Aviation_l%C3%A9g%C3%A8re_de_l%27Arm%C3%A9e_de_terre" target="_blank">
+                            <img src="images/adt.jpg" alt="wiki ALAT">
+                        </a>
+                    </div>
+                </div>
+            
+            </div>
+            
+        </section>
+
+<!-- RECOMMANDATIONS --> 
+        <section id="recommandations"> <!-- ancre partie recommandation -->
+            <div class="container">
+                <div class="red-divider"></div> <!-- déco trait -->
+                <div class="heading">
+                    <h2>Recommandations</h2>
+                </div>
+                <div id="myCarousel" class="carousel slide text-center" data-ride="carousel"> <!-- déclare le carrousel -->
+                    <ol class="carousel-indicators"> <!-- les trois petits points de position -->
+                         <li data-target="#myCarousel" data-slide-to="0" class="active"></li> <!-- déclare trois position avce la 0 en principale -->
+                         <li data-target="#myCarousel" data-slide-to="1"></li>
+                         <li data-target="#myCarousel" data-slide-to="2"></li>  
+                    </ol>
+                    <div class="carousel-inner" role="listbox"> <!-- contenu du carrousel -->
+                        <div class="item active">
+                            <h3>"Un investissement sans faille..."</h3>
+                            <h4>Larry Page, Google Co-Founder</h4>       
+                        </div>
+                          <div class="item">
+                            <h3>"L'esprit le plus méthodique que j'ai vu de toute ma vie..."</h3>
+                            <h4>Jack Dorsey, Twitter Founder and CEO</h4>       
+                        </div>
+                          <div class="item">
+                            <h3>"Merci Yvan de m'avoir aider pour le code... Tout ça c'est grâce à toi!"</h3>
+                            <h4>Mark Zuckerberg, Facebook Founder and CEO</h4>       
+                        </div>
+                    </div>
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev" role="button"> <!-- paramètre de la flèche de gauche du carrousel -->
+                        <span class="glyphicon glyphicon-chevron-left"></span> <!-- logo flèche -->
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next" role="button"> <!-- paramètre de la flèche de droite du carrousel -->
+                        <span class="glyphicon glyphicon-chevron-right"></span> <!-- logo flèche -->
+                    </a>
+                
+                </div>
+            </div>        
+        </section>
+        
+        <footer class="text-center"> <!-- centre la flêche de retour -->
+            <a href="#about"> <!-- lien à la première partie -->
+                <span class="glyphicon glyphicon-chevron-up"></span> <!-- logo chevron -->
+            </a>
+            <h5>© 2019 GUIHÉNEUF YVAN by CODE19 </h5>
+        </footer>
+                
+        
+        
+    </body>
+
+</html>
