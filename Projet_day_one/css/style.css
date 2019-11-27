@@ -9,8 +9,8 @@ h1,h2,h3,h4,h5,h6
 }
 img
 {
-    max-width: 100%;
-    height: auto;
+    max-width: 100%; /* largeur max / le max améliorera la gestion des petites fenêtres*/
+    height: auto; /* responsive */
 }
 ul,ol
 {
@@ -18,12 +18,12 @@ ul,ol
 }
 section
 {
-    padding: 45px 0 80px 0; /* espacement intérieur */
+    padding: 45px 0 80px 0; /* espacement intérieur haut droit bas gauche */
 }
 section .heading /* paramètre pointant seulement sur l'en-tête de section */
 {
-    text-align: center;
-    padding-bottom: 40px;        
+    text-align: center; /* aligne le texte au milieu */
+    padding-bottom: 40px; /* rajouter de l'espace après */
 }
 section .heading h2 /* paramètre majuscule seulement sur le titre h2 */
 {
@@ -61,19 +61,19 @@ p.italic /* paragraphe avec classe italic */
 }
 .navbar .navbar-nav 
 {
-    display: inline-block;
-    float: none;
-    vertical-align: top;
+    display: inline-block; /* disposition */
+    float: none; 
+    vertical-align: top; 
 }
 .navbar .navbar-collapse
 {
-    text-align: center;
+    text-align: center; /* centrage des onglets du menu */
 }
 .navbar li a
 {
-    color: #fff !important;
+    color: #fff !important; /* couleur des liens */
 }
-.navbar-nav li a:hover, .navbar-nav li.active a
+.navbar-nav li a:hover, .navbar-nav li.active a /* couleur des onglets lorsque l'on passe la souris dessus */
 {
     color: #008080 !important;
     background-color: #fff !important;
@@ -84,26 +84,26 @@ p.italic /* paragraphe avec classe italic */
 }
 .icon-bar
 {
-    background-color: #fff !important;
+    background-color: #fff !important; 
 }
 
 
 /* ABOUT Yvan */
 #about
 {
-    padding-top: 100px;
-    background: #008080;
+    padding-top: 100px; /* espace entre la photo et le haut de page */
+    background: #008080; /* couleur de fond */
 }
 .profile-picture
 {
-    text-align: center;
-    margin: 0 auto;
-    float: none;
+    text-align: center; /* aligne la photo au centre */
+    margin: 0 auto;   /* marge nulle en haut et en bas boîte centrée horizontalement */
+    float: none; /* à cause du col-md-4 le float est automatiquement en left */
 }
-#about .heading h1
+#about .heading h1 /* #section  .classe */
 {
-    color:#fff;
-    text-transform: uppercase;
+    color:#fff; /* couleur du texte */
+    text-transform: uppercase; /* majuscule */
 }
 #about .heading h3
 {
@@ -112,20 +112,20 @@ p.italic /* paragraphe avec classe italic */
 .button1
 {
     font-weight: bold;
-    text-transform: uppercase;
+    text-transform: uppercase; 
     color: white;
-    border: 1px solid white;
+    border: 1px solid white; /* épaisseur de 1px / type de trait / couleur */
     display: inline-block;
-    margin-top:  20px;
-    padding: 18px 50px;
-    border-radius: 3px;
-    transition: all 0.3s ease-in 0s;
+    margin-top:  20px; /* espace au haut extérieur */
+    padding: 18px 50px; /* espace intérieur entre texte et bordure */
+    border-radius: 3px; /* angle de bordure arrondi */
+    transition: all 0.3s ease-in 0s; /* pour que le passage de la souris opère le changement de couleur de façon douce */
 }
-.button1:hover
+.button1:hover  /* quand la souris est sur le bouton */
 {
-    background: white;
-    color: #008080;
-    text-decoration: none;
+    background: white; /* le fond deviandra blanc */
+    color: #008080; /* couleur de l'écriture */
+    text-decoration: none; /* enlève le soulignage du lien de la balise a */
 }
 
 /* SKILLS */
@@ -137,7 +137,7 @@ p.italic /* paragraphe avec classe italic */
 {
     color: #008080;
 }
-#skills .progress
+#skills .progress /* couleur et taille des barres grises */
 {
     height: 100%;
     margin: 30px 20px;
@@ -145,11 +145,11 @@ p.italic /* paragraphe avec classe italic */
 }
 #skills .progress-bar
 {
-    background: #008080;
+    background: #008080; /* couleur des progression */
 }
 #skills .progress h5
 {
-    text-shadow: 1px 1px 1px #000;
+    text-shadow: 1px 1px 1px #000; /* ombre des textes sur les barre de progression */
 }
 
 /* EXPERIENCE */
@@ -163,10 +163,10 @@ p.italic /* paragraphe avec classe italic */
 }
 .timeline
 {
-    padding: 30px 10px;
-    position: relative;
+    padding: 30px 10px; /* taille de la barre verticale */
+    position: relative; 
 }
-.timeline:before
+.timeline:before  /* pseudo classe */
 {
     top: 0;
     bottom: 0;
@@ -177,7 +177,7 @@ p.italic /* paragraphe avec classe italic */
     left: 50%;
     margin-left: -2.5px;
 }
-.timeline > li
+.timeline > li /* paramètre de chaque élément li de la timeline */
 {
     margin-bottom: 20px;
     position: relative;
@@ -191,7 +191,7 @@ p.italic /* paragraphe avec classe italic */
     content: " ";
     display: table;
 }
-.timeline li .timeline-badge
+.timeline li .timeline-badge /* paramètre du badge */
 {
     color: #008080;
     width: 50px;
@@ -205,17 +205,16 @@ p.italic /* paragraphe avec classe italic */
     background-color: #ddd;
     border-radius: 50%;
 }
-.timeline-panel-container
-{
+.timeline-panel-container /* container de gauche */
     width: 50%;
     float: left;
 }
-.timeline-panel-container-inverted
+.timeline-panel-container-inverted /* container de droite */
 {
     width: 50%;
     float: right;
 }
-.timeline-panel
+.timeline-panel /* paramètre container d'expérience de gauche */
 {
     width: 90%;
     float: right;
@@ -227,13 +226,13 @@ p.italic /* paragraphe avec classe italic */
     box-shadow: 0 1px 6px rgba(0,0,0, 0.175);
     background: #fff;
 }
-.timeline-panel-container-inverted .timeline-panel
+.timeline-panel-container-inverted .timeline-panel /* paramètre container d'expérience de droite */
 {
     float: left;
     margin-left: 40px;
 }
 
-.timeline-panel:after
+.timeline-panel:after /* le petit triangle de jonction de gauche */
 {
     position:absolute;
     top: 27px;
@@ -245,19 +244,19 @@ p.italic /* paragraphe avec classe italic */
     border-bottom: 14px solid transparent;
     content: " ";
 }
-.timeline-panel-container-inverted .timeline-panel:after
+.timeline-panel-container-inverted .timeline-panel:after /* le petit triangle de jonction de droite */
 {
     border-left-width: 0;
     border-right-width: 14px;
     left: -14px;
     right: auto;
 }
-.timeline-heading h3
+.timeline-heading h3 /* nom entreprise */
 {
     margin-top: 5px;
     font-size: 20px;
 }
-.timeline-heading h4
+.timeline-heading h4 /* métier */
 {
      color: #008080;
 }
@@ -271,7 +270,7 @@ p.italic /* paragraphe avec classe italic */
 {
     color: #008080;
 }
-.formation-block
+.formation-block /* paramètre de bloc */
 {
     width:80%;
     margin: 0 auto;
@@ -283,29 +282,29 @@ p.italic /* paragraphe avec classe italic */
     margin-bottom: 20px;
 
 }
-.formation-block h5
+.formation-block h5 /* l'année */
 {
     color: #888;
     font-size: 15px;
     margin-bottom: 15px;
 }
-.formation-block .glyphicon
+.formation-block .glyphicon /* logo chapeau */
 {
     font-size: 40px;
 }
-.formation-block h3
+.formation-block h3 /* lieu école */
 {
      color: #008080;
 }
-.formation-block h4
+.formation-block h4 /* intitulé du diplôme */
 {
    margin-bottom: 20px;
 }
-.formation-block p
+.formation-block p /* paragrahe */
 {
   font-weight: bold;
 }
-.formation-block .red-divider
+.formation-block .red-divider /* trait de séparation */
 {
     margin-bottom: 20px;
 }
@@ -319,14 +318,14 @@ p.italic /* paragraphe avec classe italic */
 {
     color: #fff;
 }
-#portfolio .thumbnail img
+#portfolio .thumbnail img /* paramètre des liens imagé */
 {
     width: 100%;
     height: 100%;
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%); /* rendu noir et blanc */
+    -webkit-filter: grayscale(100%); /* rendu nor et blanc pour chrome */
 }
-#portfolio .thumbnail img:hover
+#portfolio .thumbnail img:hover /* annule le rendu noir et blanc lors du passage de la souris */
 {
      filter: none;
     -webkit-filter: none; 
@@ -342,28 +341,28 @@ p.italic /* paragraphe avec classe italic */
 {
   color: #008080;
 }
-.carousel-control.left, .carousel-control.right
+.carousel-control.left, .carousel-control.right /* paramètre similaire à la flêche de gauche et de droite */
 {
     background-image: none;
     color: #008080;
 }
-.carousel-indicators
+.carousel-indicators /* trois petit ronds */
 {
     bottom: 0px;
 }
-.carousel-indicators li
+.carousel-indicators li /* bordure des petits ronds */
 {
     border-color: #008080;
 }
-.carousel-indicators li.active
+.carousel-indicators li.active /* remplissage du rond actif */
 {
     background-color: #008080;
 }
-#myCarousel .item
+#myCarousel .item /* espace haut et bas puis gauche droite */
 {
     padding: 40px 30px;
 }
-#myCarousel .item h3
+#myCarousel .item h3 /* écriture des faut commentaires */
 {
     color: #008080;
     font-style: italic;
@@ -375,14 +374,14 @@ footer
     background: #333;
     padding: 10px 0 10px;
 }
-footer .glyphicon
+footer .glyphicon /* logo de la flêche de retour en haut */
 {
     font-size:  25px;
     margin: 20px;
     color: #008080;
     height: 30px;
 }
-footer .glyphicon:hover
+footer .glyphicon:hover /* changement d'état lors du passage de la souris */
 {
     font-size:  27px;
 }
