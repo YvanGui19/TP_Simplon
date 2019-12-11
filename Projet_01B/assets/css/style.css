@@ -1,0 +1,178 @@
+/* GÉNÉRAL */
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+h1{
+    color: white;
+    font-size: 12px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+/* BARRE DE NAV */
+ul{
+    list-style-type: none;
+}
+
+.navbar{ /* paramètre barre de navigation */
+    display: flex;
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.navbar ul{
+    display: flex;
+}
+
+.navbar-collapse{
+    color: white;
+}
+.navbar-nav{
+    display: inline-block; /* disposition */
+    float: none; 
+    vertical-align: top; 
+    color: white;
+}
+
+.navbar-default .navbar-toggle
+{
+    border-style: none;
+}
+
+.navbar .navbar-collapse{
+    text-align: left; /* place des onglets du menu */
+}
+
+.navbar li a{
+    color: #fff; /* couleur des liens */
+}
+
+.navbar-nav li a:hover /* couleur des onglets lorsque l'on passe la souris dessus */
+{
+    color: #373c3f;
+    background-color: #fff;
+}
+
+/* KITS */
+
+#kits{
+    display: flex;
+    background-color: #11abbf;
+    background-size: cover;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+.text{
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+}
+
+.chevron1 img{
+    width: 20px;
+    height: 20px;
+}
+
+h2{
+    color: white;
+    text-transform: capitalize;
+}
+
+p{
+    color: white;
+    opacity: 0.5;
+}
+
+/* PREMIUM */
+
+#premium{
+    display: flex;
+    background-size: cover;
+    height: 100px;
+}
+
+.para{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #27212d;
+    flex-grow: 2;
+    height: auto;
+    align-self: stretch;
+}
+
+.chevron2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #bc3184;
+    flex-grow: 1;
+    height: auto;
+    align-self: stretch;
+}
+
+.arrow2{ 
+    width: 30px;
+    height: 30px;
+    color: white;
+    justify-content: center;
+}
+
+/* ABOUT */
+#about{
+    display: flex;
+    flex-flow: wrap;
+}
+
+.chevron3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #5a0fa0;
+    flex-grow: 1;
+    width: 30%;
+    height: 30%;
+}
+
+.arrow3{ 
+    width: 50px;
+    height: 50px;
+    color: white;
+}
+
+.bridge{
+    flex-grow: 1;
+}
+
+.face{
+    flex-grow: 1;
+    width: 30%;
+    height: 30%;
+}
+
+/* BLOG */
+#blog{
+    background-color: #ebebeb;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.title2 h3{
+    color: #3c96b8;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.article1 p{
+    color: black;
+}
+
+/* FOOTER */
+
