@@ -1,0 +1,15 @@
+1. Le systeme genere un nombre aléatoire compris entre 1 et 10
+2. Le joueur a droit à 3 tentatives pour deviner ce nombre
+3. S'il trouve le nombre avant les 3 tentatives, il est déclaré gagnant
+4. Sinon il est déclaré perdant
+5. Il a la possibilité de toujours refaire une nouvelle partie
+
+Un nombre aléatoire par partie
+Dans une partie, le nombre aléatoire généré ne change pas
+Donc à chaque tentative le nombre ne change pas
+
+Si vous voulez aider le joueur à trouver facilement le nombre aleatoire, faite le.
+
+Livrables:
+1. Design interface joueur
+2. Code source sur Github

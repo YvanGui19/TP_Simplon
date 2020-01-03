@@ -1,0 +1,26 @@
+/*RESET*/
+*{margin:0;padding:0}
+
+/*GÉNÉRAL*/
+
+
+/*CONTAINER*/
+
+
+/*ITEMS*/
+
+
+/*MEDIA*/
+/*LG*/
+@media screen and (max-width: 1200px) {
+}
+/*MD*/
+@media screen and (max-width: 980px) {
+}
+/*SM*/
+@media screen and (max-width: 768px) {
+}
+/*XS*/
+@media screen and (max-width: 576px) {
+}
+
