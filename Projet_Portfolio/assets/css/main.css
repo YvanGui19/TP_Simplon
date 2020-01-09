@@ -13,6 +13,39 @@ body{font-family: roboto, sans serif;}
 .bg-darkblue{background-color: #5F687A}
 .bg-blue{background-color: #57AFCC;}
 
+/* ---------------- ACCUEIL ---------------- */
+#home{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  width: auto;
+  height: 100vh;
+  background-color: rgb(190, 190, 190);
+}
+#home .heading h1, h3{
+  font-family: lato, sans serif;
+  color:#fff;
+}
+#home .heading h1{
+  text-transform: uppercase;
+}
+.button1{
+    text-transform: uppercase;
+    color: white;
+    border: 1px solid white;
+    display: inline-block;
+    margin-top:  20px;
+    padding: 18px 50px;
+    border-radius: 3px;
+    transition: all 0.3s ease-in 0s;
+}
+.button1:hover{
+    background: white;
+    color: #008080;
+    text-decoration: none;
+}
+
 /* ---------------- COMPÉTENCE ---------------- */
 #comp{
     display: flex;

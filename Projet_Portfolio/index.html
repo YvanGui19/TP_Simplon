@@ -9,11 +9,14 @@
         <!--     Font    -->
         <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300i,400" rel="stylesheet">
+        <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
         <!--     CSS     -->
         <link rel="stylesheet" href="assets/css/main.css">
         <link rel="stylesheet" href="assets/css/menu.css">
         <!--     JS      --> 
         <script type="text/javascript" src="assets/js/script.js"></script>
+        <!--     jQuery      --> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     </head>
 
     <body>
@@ -22,6 +25,7 @@
             <input class="menu-btn" type="checkbox" id="menu-btn" />
             <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
             <ul class="menu">
+              <li><a href="#home">Accueil</a></li>
               <li><a href="#comp">Compétences</a></li>
               <li><a href="#xp">Expériences</a></li>
               <li><a href="#cont">Contact</a></li>
@@ -29,6 +33,13 @@
         </header>
 
         <main>
+            <section id="home" class="flex-column">
+              <div class="heading">
+                <h1>Yvan Guihéneuf</h1> <!-- titre -->
+                <h3>Développeur Web & Mobile</h3> <!-- sous-titre -->
+                <a href="assets/doc/CV_GUIHÉNEUF_YVAN.pdf" class="button1">Télécharger CV</a>
+              </div>
+            </section>
             <section id="comp" class="flex-row">
                 <div class="container">
                     <div class="card">
@@ -159,9 +170,9 @@
                         </div>
                         <input id="submit" class="bouton" value="Envoyer">
                     </form>
+                </div>
             </section>
         </main>
-
         <footer>
             <div class="reso">
                 <img src="./assets/img/linkedin.png"/>
