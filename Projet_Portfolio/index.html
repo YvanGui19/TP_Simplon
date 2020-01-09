@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <!--     Média queries     -->
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Yvan GUIHÉNEUF</title>
+        <!--     Font    -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300i,400" rel="stylesheet">
+        <!--     CSS     -->
+        <link rel="stylesheet" href="assets/css/main.css">
+        <link rel="stylesheet" href="assets/css/menu.css">
+        <!--     JS      --> 
+        <script type="text/javascript" src="assets/js/script.js"></script>
+    </head>
+
+    <body>
+        <header class="header">
+            <a href="" class="logo"></a>
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+            <ul class="menu">
+              <li><a href="#comp">Compétences</a></li>
+              <li><a href="#xp">Expériences</a></li>
+              <li><a href="#cont">Contact</a></li>
+            </ul>
+        </header>
+
+        <main>
+            <section id="comp" class="flex-row">
+                <div class="container">
+                    <div class="card">
+                      <h3 class="title">HTML</h3>
+                      <div class="bar">
+                        <div class="emptybar"></div>
+                        <div class="filledbar"></div>
+                      </div>
+                      <div class="circle">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+                        <circle class="stroke" cx="60" cy="60" r="50"/>
+                      </svg>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <h3 class="title">CSS</h3>
+                      <div class="bar">
+                        <div class="emptybar"></div>
+                        <div class="filledbar"></div>
+                      </div>
+                      <div class="circle">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+                        <circle class="stroke" cx="60" cy="60" r="50"/>
+                      </svg>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <h3 class="title">JavaScript</h3>
+                      <div class="bar">
+                        <div class="emptybar"></div>
+                        <div class="filledbar"></div>
+                      </div>
+                      <div class="circle">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+                        <circle class="stroke" cx="60" cy="60" r="50"/>
+                      </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="container">
+                    <div class="card">
+                      <h3 class="title">Photoshop</h3>
+                      <div class="bar">
+                        <div class="emptybar"></div>
+                        <div class="filledbar"></div>
+                      </div>
+                      <div class="circle">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+                        <circle class="stroke" cx="60" cy="60" r="50"/>
+                      </svg>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <h3 class="title">Adobe Xd</h3>
+                      <div class="bar">
+                        <div class="emptybar"></div>
+                        <div class="filledbar"></div>
+                      </div>
+                      <div class="circle">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+                        <circle class="stroke" cx="60" cy="60" r="50"/>
+                      </svg>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <h3 class="title">Illustrator</h3>
+                      <div class="bar">
+                        <div class="emptybar"></div>
+                        <div class="filledbar"></div>
+                      </div>
+                      <div class="circle">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+                        <circle class="stroke" cx="60" cy="60" r="50"/>
+                      </svg>
+                      </div>
+                    </div>
+                  </div>
+            </section>
+            <section id="xp" class="flex-row">
+                <div class="contner">
+                    <div class="desk1 bg-lightblue">
+                        <div class="years">
+                            <img src="./assets/img/linkedin.png"/>
+                            <p>2018 - 2019</p>
+                        </div>
+                        <div class="years">
+                            <img src="./assets/img/smartphone.png"/>
+                            <p>2018 - 2019</p>
+                        </div>
+                        <div class="years">
+                            <img src="./assets/img/email.png"/>
+                            <p>2018 - 2019</p>
+                        </div>
+                    </div>
+                    <div class="desk2 bg-darkblue">
+                        <div id="xp1" class="xps">
+                            <img src="./assets/img/email.png"/>
+                            <p>TEST1</p>
+                            <p>En guise de même image</p>
+                        </div>
+                        <div id="xp2" class="xps">
+                            <img src="./assets/img/email.png"/>
+                            <p>TEST2</p>
+                            <p>Toujours la même image</p>
+                        </div>
+                        <div id="xp3" class="xps">
+                            <img src="./assets/img/email.png"/>
+                            <p>TEST3</p>
+                            <p>SURPRISE la même image !</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="cont" class="flex-column">
+                <div class="desk4 bg-darkblue">
+                    <form id="myForm" class="bg-darkblue" action="/my-handling-form-page" method="post">
+                        <div>
+                            <label class="label" for="name">Nom :</label>
+                            <input type="text" id="name" class="input" name="user_name">
+                        </div>
+                        <div>
+                            <label class="label" for="mail">Mail :</label>
+                            <input type="email" id="mail" class="input" name="user_mail">
+                        </div>
+                        <div>
+                            <label class="label" for="msg">Message :</label>
+                            <textarea id="msg" class="input" name="user_message"></textarea>
+                        </div>
+                        <input id="submit" class="bouton" value="Envoyer">
+                    </form>
+            </section>
+        </main>
+
+        <footer>
+            <div class="reso">
+                <img src="./assets/img/linkedin.png"/>
+                <img src="./assets/img/smartphone.png"/>
+                <img src="./assets/img/email.png"/>
+            </div>
+            <p>© 2020 19prod.com by GUIHÉNEUF YVAN </p>
+        </footer>
+
+    </body>
+</html>
+
